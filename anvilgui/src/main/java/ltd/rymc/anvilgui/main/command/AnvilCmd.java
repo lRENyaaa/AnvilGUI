@@ -29,11 +29,10 @@ public class AnvilCmd implements CommandExecutor {
             List<String> lore = new ArrayList<>();
             lore.add("");
             lore.add("§a当前状态: §e出售");
-            ItemMeta newItemMeta = item.getItemMeta();
+            ItemMeta newItemMeta = secondItem.getItemMeta();
             if (newItemMeta == null) return true;
             newItemMeta.setLore(lore);
-            item.setItemMeta(newItemMeta);
-            secondItem.setItemMeta(itemMeta);
+            secondItem.setItemMeta(newItemMeta);
 
             new AnvilGUI.Builder()
                     .itemLeft(item)
