@@ -1,9 +1,9 @@
-package ltd.rymc.anvilgui.main.command;
+package ltd.rymc.anvilgui.command;
 
 
 import java.util.ArrayList;
 import java.util.List;
-import ltd.rymc.anvilgui.main.anvil.AnvilGUI;
+import ltd.rymc.anvilgui.anvil.AnvilGUI;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

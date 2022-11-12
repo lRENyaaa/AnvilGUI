@@ -1,6 +1,6 @@
 name: RenYuan-CustomAnvil
 version: '${project.version}'
-main: ltd.rymc.anvilgui.main.Anvil
+main: ltd.rymc.anvilgui.Anvil
 api-version: 1.17
 softdepend:
   - RenYuan-Core

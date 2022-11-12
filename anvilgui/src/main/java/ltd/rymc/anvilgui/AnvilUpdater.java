@@ -1,4 +1,4 @@
-package ltd.rymc.anvilgui.main;
+package ltd.rymc.anvilgui;
 
 
 import com.comphenix.protocol.PacketType;

@@ -1,9 +1,9 @@
-package ltd.rymc.anvilgui.main.anvil;
+package ltd.rymc.anvilgui.anvil;
 
 
 import java.util.ArrayList;
 import java.util.List;
-import ltd.rymc.anvilgui.main.Anvil;
+import ltd.rymc.anvilgui.Anvil;
 import ltd.rymc.anvilgui.version.VersionMatcher;
 import ltd.rymc.anvilgui.version.VersionWrapper;
 import org.bukkit.Bukkit;

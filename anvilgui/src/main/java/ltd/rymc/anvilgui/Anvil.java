@@ -1,4 +1,4 @@
-package ltd.rymc.anvilgui.main;
+package ltd.rymc.anvilgui;
 
 
 import com.comphenix.protocol.ProtocolLibrary;
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
-import ltd.rymc.anvilgui.main.command.AnvilCmd;
+import ltd.rymc.anvilgui.command.AnvilCmd;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
