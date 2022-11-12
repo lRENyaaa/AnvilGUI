@@ -4,17 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.wesjd</groupId>
+    <groupId>ltd.rymc</groupId>
     <artifactId>anvilgui-parent</artifactId>
     <version>1.5.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <modules>
-        <module>api</module>
+        <module>anvilgui</module>
         <module>abstraction</module>
         <module>1_7_R4</module>
         <module>1_8_R1</module>

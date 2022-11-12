@@ -1,0 +1,13 @@
+name: RenYuan-CustomAnvil
+version: '${project.version}'
+main: ltd.rymc.anvilgui.main.Anvil
+api-version: 1.17
+softdepend:
+  - RenYuan-Core
+  - ProtocolLib
+authors: [ RENaa_FD ]
+website: https://rymc.ren/
+commands:
+  anvil:
+    description: "打开领地传送菜单"
+    usage: "Usage: /anvil"

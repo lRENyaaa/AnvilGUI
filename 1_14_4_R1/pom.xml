@@ -6,7 +6,7 @@
 
     <parent>
         <artifactId>anvilgui-parent</artifactId>
-        <groupId>net.wesjd</groupId>
+        <groupId>ltd.rymc</groupId>
         <version>1.5.3-SNAPSHOT</version>
     </parent>
 

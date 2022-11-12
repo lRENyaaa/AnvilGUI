@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>net.wesjd</groupId>
+        <groupId>ltd.rymc</groupId>
         <artifactId>anvilgui-parent</artifactId>
         <version>1.5.3-SNAPSHOT</version>
     </parent>
@@ -20,13 +20,13 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>net.wesjd</groupId>
+            <groupId>ltd.rymc</groupId>
             <artifactId>anvilgui-1_17_1_R1</artifactId>
             <version>${project.parent.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>net.wesjd</groupId>
+            <groupId>ltd.rymc</groupId>
             <artifactId>anvilgui-abstraction</artifactId>
             <version>${project.parent.version}</version>
             <scope>provided</scope>

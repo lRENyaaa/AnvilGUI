@@ -17,7 +17,7 @@ on the issues tab.
 AnvilGUI requires the usage of Maven or a Maven compatible build system. 
 ```xml
 <dependency>
-    <groupId>net.wesjd</groupId>
+    <groupId>ltd.rymc</groupId>
     <artifactId>anvilgui</artifactId>
     <version>1.5.3-SNAPSHOT</version>
 </dependency>
@@ -46,7 +46,7 @@ to prevent conflicts with other plugins. Here is an example of how to relocate t
                     <configuration>
                         <relocations>
                             <relocation>
-                                <pattern>net.wesjd.anvilgui</pattern>
+                                <pattern>ltd.rymc.anvilgui</pattern>
                                 <shadedPattern>[YOUR_PLUGIN_PACKAGE].anvilgui</shadedPattern> <!-- Replace [YOUR_PLUGIN_PACKAGE] with your namespace -->
                             </relocation>
                         </relocations>
