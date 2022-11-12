@@ -7,3 +7,6 @@
 实际上物品并不是真的消失了,使用 updateInventory() 方法就会刷新并恢复  
 于是使用ProtocolLib监听玩家使用输入框相关的数据包  
 然后在玩家使用输入框时刷新背包即可解决
+# 为何只支持到1.11
+因为1.10以前没有PrepareAnvilEvent  
+而1.10本身的AnvilInventory类型是个残废
